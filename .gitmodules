@@ -1,0 +1,3 @@
+[submodule "Gillian"]
+	path = Gillian
+	url = https://github.com/GillianPlatform/Gillian
