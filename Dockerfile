@@ -2,8 +2,12 @@ FROM gillian:latest
 
 LABEL maintaner "Karthik Ambu"
 
-RUN mkdir /app/vv-cw3
+WORKDIR /app/Gillian/
 
-WORKDIR /app/vv-cw3
+RUN esy
 
-CMD ["zsh"]
+RUN esy release
+
+RUN npm remove -g gillian-platform
+
+RUN npm install -g _release/
