@@ -1,3 +1,6 @@
 [submodule "Gillian"]
 	path = Gillian
 	url = https://github.com/GillianPlatform/Gillian
+[submodule "JaVerT-Verify-Check"]
+	path = JaVerT-Verify-Check
+	url = https://github.com/dragonfist453/JaVerT-Verify-Check
