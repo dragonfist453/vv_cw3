@@ -1,4 +1,4 @@
-// A function to calculate the factorial of a number and return the result
+// A function named fact to calculate the factorial of a number (as parameter, n) and return the result
 
 /**
     @id fact

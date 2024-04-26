@@ -1,4 +1,4 @@
-// A function to calculate the perimeter of a circle with PI as 3.141592 and parameter as radius and return the result
+// A function named perimeter (with parameter, radius) to calculate the perimeter of a circle with PI written as 3.141592 and return the result
 
 /**
     @id perimeter
@@ -10,7 +10,7 @@ function perimeter(radius) {
     return 2 * 3.141592 * radius;
 }
 
-// A function to calculate the area of a circle with PI as 3.141592 and parameter as radius and return the result
+// A function named area (with parameter, radius) to calculate the area of a circle with PI written as 3.141592, without Math library and return the result
 
 /**
     @id area
